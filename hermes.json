@@ -1,0 +1,325 @@
+{
+ "version": 11,
+ "raw": {
+  "repo_name": "pizzeria-savona-padova",
+  "brand": {
+   "name": "Pizzeria Savona",
+   "tagline": "Il fuoco che non si dimentica",
+   "sector_en": "Wood-fired pizzeria, Padova",
+   "mission": "Impasto a lunga lievitazione, ingredienti di stagione e la pazienza del forno a legna. A Padova, la pizza fatta come deve essere.",
+   "keywords": [
+    "autentico",
+    "artigianale",
+    "caldo",
+    "generoso",
+    "radicato"
+   ],
+   "palette": {
+    "bg": "#f4efe7",
+    "fg": "#1f1d1a",
+    "accent": "#a4532f",
+    "muted": "#6f675c",
+    "surface": "#e9e1d4"
+   },
+   "font_display": "Gloock",
+   "font_body": "Hanken Grotesk",
+   "art_direction": "warm directional light, film grain, shallow depth of field, amber and terracotta tones, rustic stone and wood textures, steam and ember glow"
+  },
+  "seo": {
+   "description": "Pizzeria Savona a Padova: impasto a lunga lievitazione, forno a legna, ingredienti di stagione. Asporto e consegna. Prenota il tuo tavolo."
+  },
+  "nav_cta": {
+   "label": "Prenota un tavolo",
+   "href": "#contatti"
+  },
+  "contact": {
+   "email": "",
+   "phone": "",
+   "address": "Via Savona, Padova",
+   "hours": ""
+  },
+  "sections": [
+   {
+    "type": "hero_video",
+    "role": "attenzione",
+    "eyebrow": "Padova · Forno a legna",
+    "title": "La pizza che *brucia* la memoria",
+    "subtitle": "Lunga lievitazione, ingredienti di stagione, il respiro del fuoco.",
+    "cta": {
+     "label": "Scopri il menu",
+     "href": "#menu"
+    },
+    "video_query": "wood fired pizza oven",
+    "image": "pizza oven interior, glowing embers, rustic stone arch, warm amber light, film grain, shallow depth of field",
+    "fill_text": true
+   },
+   {
+    "type": "text_reveal",
+    "role": "problema",
+    "kicker": "Il problema",
+    "text": "Hai mangiato troppe pizze che sembravano tutte uguali. Crosta gonfia e vuota, salsa acida, mozzarella che non sa di latte. Cerchi il morso che ti riporta a qualcosa di vero: il profumo del forno, la base che si sbriciola, il sapore che non ha bisogno di condimenti per essere riconoscibile. Qui non si fa fretta. Si aspetta che l'impasto sia pronto, che il pomodoro sia di stagione, che il fuoco sia alla temperatura giusta. Il risultato non si spiega: si assaggia."
+   },
+   {
+    "type": "stacked_cards",
+    "role": "soluzione",
+    "kicker": "Come lavoriamo",
+    "title": "Tre gesti, *niente* scorciatoie",
+    "items": [
+     {
+      "tag": "01",
+      "title": "L'impasto dorme",
+      "text": "Lievitazione lenta di 48 ore. Il glutine si rilassa, il sapore si sviluppa, la crosta diventa alveolata e leggera. Non si accelera: si aspetta.",
+      "image": "dough balls resting on floured wooden surface, soft warm light, rustic bakery setting, film grain, shallow depth of field"
+     },
+     {
+      "tag": "02",
+      "title": "Il pomodoro è di stagione",
+      "text": "San Marzano in estate, pomodoro datterino in inverno. Salsa cruda, olio extravergine, basilico fresco. Niente concentrato, niente zucchero nascosto.",
+      "image": "fresh tomatoes and basil on rustic wooden board, warm directional light, terracotta tones, film grain, shallow depth of field"
+     },
+     {
+      "tag": "03",
+      "title": "Il fuoco decide",
+      "text": "Forno a legna, brace di faggio. Il pizzaiolo legge il calore, non il cronometro. Ogni pizza esce quando il fuoco la dice fatta: bordi bolla, cuore morbido.",
+      "image": "pizza sliding into wood fired oven, glowing embers, flour dust in air, warm amber light, cinematic, film grain"
+     }
+    ]
+   },
+   {
+    "type": "services",
+    "role": "extra",
+    "extra_why": "Il menu è il prodotto principale: le categorie guidano la scelta del cliente e mostrano la varietà senza inventare piatti specifici.",
+    "kicker": "Il menu",
+    "title": "Cosa ti *aspetta*",
+    "items": [
+     {
+      "title": "Margherite",
+      "text": "Le classiche fatte bene: pomodoro, mozzarella di bufala o fior di latte, basilico. La base che non tradisce.",
+      "image": "margherita pizza on rustic stone, fresh basil leaves, warm light, film grain, shallow depth of field"
+     },
+     {
+      "title": "Speciali",
+      "text": "Combinazioni di stagione che cambiano con il mercato. Chiedi al banco: il pizzaiolo sa cosa c'è di meglio oggi.",
+      "image": "artisan pizza with seasonal toppings, rustic presentation, warm directional light, terracotta tones, film grain"
+     },
+     {
+      "title": "Dolci",
+      "text": "Focaccia dolce, crostate, gelato artigianale. La chiusura giusta dopo il fuoco.",
+      "image": "rustic sweet focaccia with honey and nuts, warm light, wooden surface, film grain, shallow depth of field"
+     },
+     {
+      "title": "Asporto & Consegna",
+      "text": "La pizza arriva calda, in scatole che non la schiacciano. Consegna a Padova e dintorni.",
+      "image": "pizza in kraft paper box, warm ambient light, rustic table, film grain, shallow depth of field"
+     }
+    ]
+   },
+   {
+    "type": "image_zoom",
+    "role": "extra",
+    "extra_why": "Il forno a legna è l'elemento distintivo del locale: mostrarlo a tutto schermo crea immersione e differenzia dalla pizza industriale.",
+    "kicker": "Il cuore",
+    "title": "Il forno non mente",
+    "text": "Mattoni refrattari, brace di faggio, 450 gradi. Qui non c'è termostato: c'è un uomo che legge il fuoco da anni. Ogni pizza ha il suo tempo, e il tempo non si comprà.",
+    "image": "wood fired pizza oven interior, glowing embers and flames, rustic stone arch, warm amber light, cinematic, film grain"
+   },
+   {
+    "type": "offer",
+    "role": "offerta",
+    "kicker": "Cosa ottieni",
+    "title": "Un tavolo, un *fuoco*, una pizza vera",
+    "text": "Nessun coperto, nessun minimo. Siediti, ordina, lascia che il forno faccia il suo lavoro. Se vieni in due, la pizza al taglio è la stessa qualità, al prezzo giusto.",
+    "points": [
+     "Impasto a 48 ore di lievitazione",
+     "Ingredienti di stagione, filiera corta",
+     "Forno a legna, brace di faggio",
+     "Asporto e consegna a Padova",
+     "Carta dei vini selezionata",
+     "Nessun coperto, nessun sovrapprezzo"
+    ],
+    "price": "Pizze da 8 a 14 euro",
+    "note": "Prezzi indicativi: il menu completo è disponibile in locale e su richiesta.",
+    "cta": {
+     "label": "Prenota o chiama",
+     "href": "#contatti"
+    }
+   },
+   {
+    "type": "horizontal_gallery",
+    "role": "extra",
+    "extra_why": "L'atmosfera del locale è parte dell'esperienza: mostrare la sala, il banco, il forno aiuta il cliente a immaginarsi seduto lì.",
+    "kicker": "L'atmosfera",
+    "title": "Dove il *fuoco* fa da padrone",
+    "items": [
+     {
+      "title": "Il banco",
+      "caption": "Guarda il pizzaiolo lavorare, scegli al momento",
+      "image": "pizzeria counter with pizza being stretched, warm ambient light, rustic wood, film grain, shallow depth of field"
+     },
+     {
+      "title": "La sala",
+      "caption": "Luce bassa, pietra a vista, rumore del forno",
+      "image": "intimate pizzeria interior, stone walls, warm pendant lights, wooden tables, cozy atmosphere, film grain"
+     },
+     {
+      "title": "Il forno",
+      "caption": "Il cuore del locale, sempre acceso",
+      "image": "wood fired oven with glowing embers, pizza inside, warm amber light, rustic stone, cinematic, film grain"
+     },
+     {
+      "title": "Il dettaglio",
+      "caption": "Olio, sale, basilico: le cose semplici fatte bene",
+      "image": "olive oil bottle and fresh basil on rustic stone, warm directional light, terracotta tones, film grain, shallow depth of field"
+     },
+     {
+      "title": "La pizza",
+      "caption": "Bordi bolla, cuore morbido, sapore pulito",
+      "image": "close up of wood fired pizza, leopard pattern on crust, fresh mozzarella, warm light, film grain, shallow depth of field"
+     }
+    ]
+   },
+   {
+    "type": "marquee",
+    "role": "extra",
+    "extra_why": "Rafforza i pilastri del brand in un ritmo visivo che separa la sezione atmosfera dalla prova, creando respiro.",
+    "items": [
+     "Lunga lievitazione",
+     "Forno a legna",
+     "Stagionalità",
+     "Filiera corta",
+     "Padova",
+     "Niente scorciatoie"
+    ]
+   },
+   {
+    "type": "stats",
+    "role": "usp",
+    "kicker": "Perché Savona",
+    "title": "I numeri che *contano*",
+    "items": [
+     {
+      "value": 48,
+      "prefix": "",
+      "suffix": "h",
+      "label": "di lievitazione naturale"
+     },
+     {
+      "value": 450,
+      "prefix": "",
+      "suffix": "°C",
+      "label": "nel forno a legna"
+     },
+     {
+      "value": 100,
+      "prefix": "",
+      "suffix": "%",
+      "label": "ingredienti di stagione"
+     },
+     {
+      "value": 0,
+      "prefix": "",
+      "suffix": "",
+      "label": "concentrati, additivi, scorciatoie"
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "role": "prova",
+    "kicker": "La garanzia",
+    "title": "Se non ti piace, *parliamo*",
+    "text": "Non vendiamo promesse: vendiamo una pizza. Se il bordo non è bolla, se la base è gommosa, se il sapore non è pulito, dimmelo. Correggiamo. È così che si fa da quando apriamo.",
+    "bullets": [
+     "Impasto sempre fresco, mai surgelato",
+     "Mozzarella di bufala campana DOP",
+     "Olio extravergine di oliva, frantoio locale"
+    ],
+    "image": "pizzaiolo hands stretching dough, flour dust, warm light, rustic setting, film grain, shallow depth of field",
+    "reverse": true
+   },
+   {
+    "type": "cta",
+    "role": "cta",
+    "title": "Il forno è *acceso*. Vieni.",
+    "text": "Prenota un tavolo o chiama per l'asporto. Il posto migliore è quello vicino al banco, dove si sente il calore.",
+    "cta": {
+     "label": "Prenota ora",
+     "href": "#contatti"
+    }
+   },
+   {
+    "type": "faq",
+    "role": "faq",
+    "kicker": "Domande frequenti",
+    "title": "Prima di *venire*",
+    "items": [
+     {
+      "q": "Posso prenotare per gruppi grandi?",
+      "a": "Sì, per gruppi oltre le 6 persone ti consigliamo di chiamare direttamente. Abbiamo spazi anche per eventi privati: chiedi disponibilità."
+     },
+     {
+      "q": "Fate consegna a domicilio?",
+      "a": "Sì, a Padova e nei comuni limitrofi. La pizza arriva in scatole rigide che mantengono il bordo. Tempi medi: 30-40 minuti."
+     },
+     {
+      "q": "Ci sono opzioni per intolleranze?",
+      "a": "Abbiamo impasto senza glutine (preparato separatamente) e opzioni vegetariane. Per allergie specifiche, avvisaci al momento dell'ordine."
+     },
+     {
+      "q": "Quali sono gli orari?",
+      "a": "Aperti dal martedì alla domenica. Pranzo e cena. Il lunedì siamo chiusi per riposo e preparazione dell'impasto della settimana."
+     },
+     {
+      "q": "Posso portare il mio vino?",
+      "a": "Sì, con un contributo di tappo. In alternativa, la nostra carta dei vini è selezionata con attenzione: chiedi al banco."
+     },
+     {
+      "q": "C'è parcheggio?",
+      "a": "C'è un parcheggio a pochi passi dal locale. In centro a Padova, la zona a traffico limitato vale: verifica prima di venire in auto."
+     }
+    ]
+   }
+  ],
+  "experience": {
+   "mode": "cinema",
+   "preset": "particles",
+   "material": "matte",
+   "model_prompt": "",
+   "intro": "counter",
+   "chapters": [
+    "FUOCO",
+    "IMPASTO",
+    "SAPORE"
+   ],
+   "index": false
+  },
+  "todo": [
+   "Confermare indirizzo completo, telefono, email e orari di apertura",
+   "Fornire il menu reale con piatti e prezzi (per sostituire i prezzi indicativi nella sezione offerta)",
+   "Fornire foto reali del locale, del forno e dei piatti (per sostituire i prompt stock)",
+   "Raccogliere 2-4 recensioni vere da Google o passaparola (per la sezione prova)",
+   "Confermare se esiste una carta dei vini da menzionare esplicitamente",
+   "Verificare se ci sono opzioni senza glutine o vegane da specificare"
+  ]
+ },
+ "logo": null,
+ "favicon": null,
+ "model": null,
+ "video": "assets/video/hero.mp4",
+ "images": {
+  "2d7b273c0fa6": "assets/img/2d7b273c0fa6.webp",
+  "d75ad5269368": "assets/img/d75ad5269368.webp",
+  "719087a4b3f8": "assets/img/719087a4b3f8.webp",
+  "d3ea82ba62ab": "assets/img/d3ea82ba62ab.webp",
+  "36302ee44b7e": "assets/img/36302ee44b7e.webp",
+  "e7831e2010aa": "assets/img/e7831e2010aa.webp",
+  "b8070bee1316": "assets/img/b8070bee1316.webp",
+  "6fde3045e14c": "assets/img/6fde3045e14c.webp",
+  "885cdcaa2e99": "assets/img/885cdcaa2e99.webp",
+  "ae33a22583e1": "assets/img/ae33a22583e1.webp",
+  "0fc5fa135698": "assets/img/0fc5fa135698.webp",
+  "ff723671ca65": "assets/img/ff723671ca65.webp",
+  "b1de1f039106": "assets/img/b1de1f039106.webp",
+  "ce1c2c3b11b5": "assets/img/ce1c2c3b11b5.webp"
+ }
+}
