@@ -51,8 +51,30 @@
     },
     "video_query": "wood fired pizza oven flames",
     "image": "neapolitan pizza in wood fired oven, glowing embers, dramatic warm light, steam rising, cinematic",
-    "fill_text": true
+    "fill_text": true,
+    "background_gradient": {
+     "from": "#090A0F",
+     "mid": "#0B0C10",
+     "to": "#1A1B1E"
+    },
+    "overlay": {
+     "opacity": 0.3,
+     "border": "luminescent"
+    },
+    "model_3d": {
+     "name": "Aurora",
+     "texture": "neon gold",
+     "color": "#D4AF37"
+    },
+    "font_title": "Plus Jakarta Sans",
+    "font_subtitle": "Space Grotesk",
+    "contrast_scheme": {
+     "dark_obsidian": 60,
+     "neon_gold": 30,
+     "glassmorphism": 10
+    }
    },
+   "",
    {
     "role": "problema",
     "type": "text_reveal",

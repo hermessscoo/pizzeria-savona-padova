@@ -25,13 +25,14 @@ if(matchMedia('(prefers-reduced-motion: reduce)').matches)r.classList.add('reduc
 setTimeout(function(){if(!window.__hermesReady)r.classList.add('no-anim')},6000);})(document);
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "S\u00ec, abbiamo un impasto dedicato senza glutine. Avvisaci al momento dell\u0027ordine cos\u00ec lo prepariamo con calma."}, "name": "Fate pizza senza glutine?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Certo. Al banco o per telefono. La pizza al taglio \u00e8 disponibile tutti i giorni, anche a pranzo."}, "name": "Posso ordinare da asporto?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "S\u00ec, consegniamo in zona Padova centro. Chiamaci per verificare se la tua zona \u00e8 coperta."}, "name": "Fate delivery?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "Non abbiamo parcheggio interno, ma ci sono zone blu nelle vicinanze e il parcheggio di Prato della Valle a cinque minuti a piedi."}, "name": "C\u0027\u00e8 parcheggio?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "S\u00ec, per gruppi o per i weekend \u00e8 consigliabile prenotare. In settimana, a pranzo e a cena, spesso c\u0027\u00e8 posto senza prenotazione."}, "name": "Accettate prenotazioni?"}, {"@type": "Question", "acceptedAnswer": {"@type": "Answer", "text": "S\u00ec, diverse pizze sono gi\u00e0 vegetariane. Per una base vegana basta chiedere: sostituiamo la mozzarella con olio extravergine e verdure."}, "name": "Avete opzioni vegetariane o vegane?"}]}</script></head>
-<body class="exp-cinema">
+<body class="exp-scene3d">
 <a class="skip" href="#main">Vai al contenuto</a>
 <div class="preloader" aria-hidden="true">
   <div class="preloader__brand">Pizzeria Savona</div>
   <div class="preloader__count"><span data-count-pre>0</span></div>
 </div>
-<div class="chapters" aria-hidden="true"><i>+</i><span data-chapter="0">FUOCO</span><i>+</i><span data-chapter="1">IMPASTO</span><i>+</i><span data-chapter="2">TAVOLO</span><i>+</i><b class="chapters__bar"></b></div>
+<canvas class="scene3d" aria-hidden="true"></canvas>
+<script type="application/json" id="hermes-scene">{"material": "matte", "model": null, "preset": "particles", "sections": [{"id": "top", "type": "hero_video"}, {"id": "la-verit", "type": "text_reveal"}, {"id": "come-lavoriamo", "type": "stacked_cards"}, {"id": "il-menu", "type": "services"}, {"id": "dal-forno-al-tavolo", "type": "horizontal_gallery"}, {"id": "al-tavolo", "type": "offer"}, {"id": "perch-savona", "type": "stats"}, {"id": "dove-siamo", "type": "image_zoom"}, {"id": "garanzie", "type": "split"}, {"id": "contatti", "type": "cta"}, {"id": "domande-frequenti", "type": "faq"}]}</script><div class="chapters" aria-hidden="true"><i>+</i><span data-chapter="0">FUOCO</span><i>+</i><span data-chapter="1">IMPASTO</span><i>+</i><span data-chapter="2">TAVOLO</span><i>+</i><b class="chapters__bar"></b></div>
 <div class="progress" aria-hidden="true"></div>
 <div class="cursor" aria-hidden="true"></div>
 
@@ -280,5 +281,6 @@ setTimeout(function(){if(!window.__hermesReady)r.classList.add('no-anim')},6000)
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js" defer></script>
 <script src="assets/site.js" defer></script>
-</body>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<script type="module" src="assets/scene.js"></script></body>
 </html>
